@@ -14,16 +14,19 @@
 
 .main__column {
   display: grid;
-  height: 300px;
+  width: 150px;
   place-items: center;
   overflow: auto;
+  border: 1px solid;
 }
 
 .low {
+  height: 300px;
   row-gap: 30px;
 }
 
 .high {
+  height: 300px;
   row-gap: 0px;
 }
 
